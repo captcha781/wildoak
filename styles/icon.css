@@ -1,0 +1,57 @@
+.menulist{
+    left: 130%;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, hotpink, rgb(127, 174, 250));
+    position: fixed;
+    z-index: 10;
+    filter: blur(1);
+}
+
+.menulist__inner{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.menulist__closeIcon{
+    float: right;
+    margin-top: 3em;
+    margin-right: 3em;
+    cursor: pointer;
+    
+}
+
+.menulist__items_div{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    margin: auto;
+}
+
+.menulist__list{
+    list-style: none;
+    text-align: center;
+}
+
+.menulist__item{
+    font-family: Lora, "Nanum Myeong";
+    font-size: 1.5em;
+    line-height: 3em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition-duration: 300ms;
+    transition-delay: 250ms;
+    border-bottom: 2px transparent;
+}
+
+.menulist__item:hover{
+    border-bottom: 2px solid white;
+}
+
+.menulist__item a{
+    text-decoration: none;
+    color: #fff;
+}
+
