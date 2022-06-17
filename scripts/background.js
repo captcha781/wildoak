@@ -9,7 +9,7 @@ setInterval(() => {
         i = 1;
     }
     document.getElementById("primary").style.transitionDelay = "1000ms";
-    document.getElementById("primary").style.backgroundImage = `url('/assets/mains/main-bg${i}.jpg')`;
+    document.getElementById("primary").style.backgroundImage = `url('../assets/mains/main-bg${i}.jpg')`;
     document.getElementById("primary").style.transitionDuration = "1000ms";
     document.getElementById("primary").style.transitionTimingFunction = "ease";
     console.log(`url('/assets/mains/main-bg${i}.jpg')`);
